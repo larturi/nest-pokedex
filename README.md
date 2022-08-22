@@ -2,9 +2,9 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="100" alt="Nest Logo" /></a>
 </p>
 
-# Nest Pokedex API Rest
+## Nest Pokedex API Rest
 
-## Stack
+### Stack
 
 * Nest.js
 * MongoDB
@@ -12,15 +12,15 @@
 
 <hr />
   
-## 🚀 Quick start
+### 🚀 Quick start
 
-### 1. Clonar el repositorio
+#### 1. Clonar el repositorio
 
 ```bash
 git clone https://github.com/larturi/nest-pokedex
 ```
 
-### 2. Instalar dependencias
+#### 2. Instalar dependencias
 
 ```bash
 yarn install
