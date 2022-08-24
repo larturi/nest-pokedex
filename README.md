@@ -42,11 +42,9 @@ docker-compose up -d
 mongodb://localhost:27018/nest-pokedex
 ```
 
-#### 5. Variables de entorno
+#### 5. Reconstruir localmente la base de datos con el seed
 
-```bash
-Copiar las de .env.template y crear el archivo.env
-```
+[http://localhost:3000/api/v2/seed](http://localhost:3000/api/v2/seed)
 
 #### 6. Correr aplicación localmente
 
