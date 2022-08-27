@@ -32,7 +32,13 @@ yarn install
 npm i -g @nestjs/cli
 ```
 
-#### 4. Base de datos Mongo con Docker
+#### 4. Clonar el archivo ```.env.template```, renombrarlo a ```.env``` y completar los valores
+
+```bash
+npm i -g @nestjs/cli
+```
+
+#### 5. Base de datos Mongo con Docker
 
 ```bash
 docker-compose up -d
@@ -42,15 +48,15 @@ docker-compose up -d
 mongodb://localhost:27018/nest-pokedex
 ```
 
-#### 5. Reconstruir localmente la base de datos con el seed
-
-[http://localhost:3000/api/v2/seed](http://localhost:3000/api/v2/seed)
-
 #### 6. Correr aplicación localmente
 
 ```bash
 yarn start:dev
 ```
+
+#### 7. Reconstruir localmente la base de datos con el seed
+
+[http://localhost:3000/api/v2/seed](http://localhost:3000/api/v2/seed)
 
 ---
 
